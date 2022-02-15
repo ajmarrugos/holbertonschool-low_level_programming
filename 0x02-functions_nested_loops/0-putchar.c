@@ -8,11 +8,10 @@
 int main(void)
 {
 int a = 0;
-char b[] = "_putchar";
+char b[] = "_putchar/n";
 for (a = 0; a < 9; a++)
 {
 _putchar(b[a]);
 }
-_putchar('\n');
 return (0);
 }
