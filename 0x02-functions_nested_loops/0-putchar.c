@@ -10,7 +10,9 @@ int main(void)
 int a = 0;
 char b[] = "_putchar";
 for (a = 0; a < 9; a++)
+{
 _putchar(b[a]);
+}
 _putchar('\n');
 return (0);
 }
