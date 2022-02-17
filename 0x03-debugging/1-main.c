@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* @i: Does not increment, so loop is not avoided
 * Return: 0
 **/
 
