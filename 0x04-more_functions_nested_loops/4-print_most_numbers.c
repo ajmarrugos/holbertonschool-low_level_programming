@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_most_numbers - Print the numbers since 0 up to 9
-* The function excludes '2' and '4' numbers
+* This function excludes '2' and '4' numbers
 * Return: The numbers since 0 up to 9 without '2' or '4'
 **/
 void print_most_numbers(void)
