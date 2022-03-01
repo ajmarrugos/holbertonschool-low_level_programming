@@ -1,7 +1,11 @@
 # More  Pointers, Arrays, Strings #
 
-Pointers - It's like a cursor behind the operations in a program. It allways you to get dat from memmory and make changes values in memmory.
+This time we're gonna be working with:
 
-Arrays - Blocks of information values and data in the same type.
+## Double Pointers - It's a pointer that points to another pointer (single pointer) ##
 
-Strings - It's like an array but made of characters.
+## Buffers - Blocks of memmory that stores the variables and values ## 
+
+## Memmory Blocks - Slots with the size of bytes, where values and variable adresses are stored. ##
+
+Hope you find fun here!
