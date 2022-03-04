@@ -5,7 +5,7 @@
 * atoi - Converts a string to an int
 * @argc: Argument Count
 * @argv: Argument Vector
-* Return: 0
+* Return: Result
 **/
 
 int main(int argc, char *argv[])
