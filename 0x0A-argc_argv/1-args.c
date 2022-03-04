@@ -1,4 +1,4 @@
-#included "main.h"
+#include "main.h"
 
 /**
 * main - Will print the number of args
