@@ -4,7 +4,6 @@
 * *str_concat - Concatenates n bytes of a string to another string
 * @s1: string to append to
 * @s2: string to concatenate from
-* @n: Number of bytes from s2 to concatenate to s1
 * Return: Pointer to the resulting string
 **/
 
