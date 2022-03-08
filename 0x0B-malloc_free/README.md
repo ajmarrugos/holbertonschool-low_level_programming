@@ -1,4 +1,4 @@
-# Memmory Allocation #
+# Memory Allocation #
 
 ## Valgrind ##
 
