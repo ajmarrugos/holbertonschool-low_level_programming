@@ -1,7 +1,7 @@
 #ifndef _LISTS_
 #define _LISTS_
 
-//  STD LIBRARIES //
+/*  STD LIBRARIES */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,7 +20,7 @@ unsigned int len;
 struct list_s *next;
 } list_t;
 
-// PROTOTYPES //
+/* PROTOTYPES */
 size_t print_list(const list_t *h);
 
 #endif
