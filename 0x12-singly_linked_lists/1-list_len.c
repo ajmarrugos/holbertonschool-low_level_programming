@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
-* list_len - Function that returns the number of elements in a linked list_t list.
-* @h: Value of the leng str.
+* list_len - Will return the number of elements in a linked list_t
+* @h: Value of the leng str
 * Return: Lenght of linked list
 **/
 
