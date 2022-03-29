@@ -1,9 +1,9 @@
-#ifndef _MAIN_
-#define _MAIN_
+#ifndef _LISTS_
+#define _LISTS_
 
+//  STD LIBRARIES //
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
 * struct list_s - Singly linked list
@@ -20,6 +20,7 @@ unsigned int len;
 struct list_s *next;
 } list_t;
 
+// PROTOTYPES //
 size_t print_list(const list_t *h);
 
 #endif
