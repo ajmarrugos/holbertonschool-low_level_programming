@@ -7,9 +7,11 @@
 
 void free_list(list_t *head)
 {
-if (head == NULL)
-return;
-free_list(head->next);
-free(head->str);
-free(head);
+list_t *temp;
+while ((temp = head) != NULL)
+{
+head = head->next;
+free(temp->str);
+free(temp);
+}
 }
