@@ -2,11 +2,13 @@
 #define _LISTS_
 
 /*  STD LIBRARIES */
-#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
 
 /**
-* listint_s - Singly linked list
+* struct listint_s - Singly linked list
 * @n: Integer argument
 * @next: Points to the next node
 * Description: Singly linked list node structure
@@ -22,5 +24,6 @@ struct listint_s *next;
 
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
+listint_t *add_nodeint(listint_t **head, const int n);
 
 #endif
