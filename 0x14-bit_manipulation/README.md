@@ -9,17 +9,9 @@ Bitwise operators work with integer type. They do not support float or real type
 C has six Bitwise operators.
 
 | Operator      | Description   |
-| ------------- | ------------- |
 |      "&"      | Bitwise AND   |
-| ------------- | ------------- |
 |      "|"      | Bitwise OR    |
-| ------------- | ------------- |
 |      "^"      | Bitwise XOR   |
-| ------------- | ------------- |
 |      "~"      | Commplement   |
-| ------------- | ------------- |
-|      "<<"     | Left shift    |
-| ------------- | ------------- |
 |      ">>"     | Right shift   |
-| ------------- | ------------- |
 
