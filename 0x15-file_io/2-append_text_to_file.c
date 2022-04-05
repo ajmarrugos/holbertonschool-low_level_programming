@@ -17,9 +17,12 @@ if (text_content != NULL)
 {
 fd = open(filename, O_WRONLY | O_APPEND);
 if (fd == -1)
-return (-1); counter = 0;
-while (*(text_content + counter) != '\0') counter++; fdwr = write(fd, text_content, counter);
-if fdwr == -1)
+return (-1);
+counter = 0;
+while (*(text_content + counter) != '\0')
+counter++;
+fdwr = write(fd, text_content, counter);
+if (fdwr == -1)
 {
 close(fd);
 write(STDOUT_FILENO, "fails", 5);
