@@ -1,8 +1,8 @@
 ## C: Doubly linked lists
 
 In computer science, a doubly linked list is a data structure consisting of a set of sequentially linked nodes.
-Like this:
 
+Like this:
 <-- | prev | value | next | -->
 
 | Files/Function        | Use/Description                                               |
